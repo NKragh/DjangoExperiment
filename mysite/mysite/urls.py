@@ -16,10 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-from records.views import index
+from records.views import index, tutorial_view, about_view, contact_view, record_detail_view
 
 urlpatterns = [
     #path('polls/', include('polls.urls')),
     path('', index),
+    path('tut/', tutorial_view),
+    path('about/', about_view),
+    path('contact/', contact_view),
+
+    path('record/detail/', record_detail_view),
+
     path('admin/', admin.site.urls)
 ]
