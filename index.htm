@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="da-DK">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Coding Template</title>
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+  <h2>Hent Alle</h2>
+  <button id="GetAllButton" class="getbtn">Hent Alle!</button>
+  <div id="output"></div>
+
+  <h2>Søg</h2>
+  <input id="searchTitle" placeholder="Title" />
+  <input id="searchArtist" placeholder="Artist" />
+  <input id="searchDuration" placeholder="Duration" type="number"/>
+  <input id="searchYear" placeholder="Year" type="number" />
+  <button id="searchButton" class="searchbtn">Søg!</button>    
+  <div id="searchOutput"></div>
+
+  <h2>Tilføj</h2>
+  <input id="inputTitle" placeholder="Title" type="text"/>
+  <input id="inputArtist" placeholder="Artist" type="text"/>
+  <input id="inputDuration" placeholder="Duration" type="number"/>
+  <input id="inputYear" placeholder="Year" type="number"/>
+  <button id="inputButton" class="addbtn">Tilføj!</button>    
+  <div id="inputOutput"></div>
+  
+  <h2>Opdater</h2>
+  <input id="updateTitle" placeholder="Title" type="text"/>
+  <input id="updateArtist" placeholder="Artist" type="text"/>
+  <input id="updateDuration" placeholder="Duration" type="number"/>
+  <input id="updateYear" placeholder="Year" type="number"/>
+  <button id="updateButton" class="updatebtn">Opdater!</button>    
+  <div id="inputOutput"></div>
+
+  <h2>Slet</h2>
+  <input id="deleteID" placeholder="ID" type="text"/>
+  <button id="deleteButton" class="deletebtn">Slet!</button>
+  <div id="deleteOutput"></div>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
